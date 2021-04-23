@@ -9,6 +9,10 @@ class introduce{
     {
         name="noname";
     }
+    introduce(string iname)
+    {
+        name=iname;
+    }
     void setname(string value)
     {
         name=value;
@@ -19,8 +23,8 @@ class introduce{
     }
 };
 int main(){
-    introduce obj;
-    obj.setname("Vertika mittal");
+    introduce obj("vertika mittal");
+    // obj.setname("Vertika mittal");
     obj.myname();
 
     // introduce *obj2=new introduce;
