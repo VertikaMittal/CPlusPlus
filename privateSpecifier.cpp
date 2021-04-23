@@ -4,10 +4,14 @@ using namespace std;
 class introduce{
     private:
     string name;
+    string setpvname()
+    {
+        return(name+" Mittal");
+    }
     public:
     void getname()
     {
-        cout<<"my name is "<<name<<endl;
+        cout<<"my name is "<<setpvname()<<endl;
     }
     void setname(string value)
     {
