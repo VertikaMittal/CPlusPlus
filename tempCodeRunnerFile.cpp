@@ -1,3 +1,4 @@
-introduce *obj2=new introduce;
-    obj2->setname("Vertika");
-    obj2->getname();
+ // introduce obj("vertika mittal");
+    // obj.setname("Vertika mittal");
+    // obj.myname();
+    
